@@ -91,13 +91,14 @@ Step 3: Profile the clusters after k-means clustering
 
 ![](Market_segmentation_files/figure-markdown_strict/unnamed-chunk-1-1.png)
 
-**Findings:**  
-\* Shopping and photo-sharing are positively correlated  
-\* College\_uni and online\_gaming stands out with a strong positive
-correlation  
-\* Health\_nutrition,peronal\_fitness and outdoors have a high positive
-correlation showing these people are health conscious  
-\* Fashion and beauty have a strong postive correlation
+**Findings:**
+
+-   Shopping and photo-sharing are positively correlated  
+-   College\_uni and online\_gaming stands out with a strong positive
+    correlation  
+-   Health\_nutrition,peronal\_fitness and outdoors have a high positive
+    correlation showing these people are health conscious  
+-   Fashion and beauty have a strong postive correlation
 
 There are more number of such combinations. Let's perform cluster
 analysis to gain more insights into the profiles.  
@@ -137,6 +138,7 @@ plot](https://www.r-bloggers.com/finding-optimal-number-of-clusters/)
     grid.arrange(wss,sil,ncol = 2) 
 
 ![](Market_segmentation_files/figure-markdown_strict/unnamed-chunk-3-1.png)
+
 Here the elbow curve is not of much help, let consider 6 as the optimal
 number of clusters and see if we can find convincing profiles.
 Otherwise, we can repeat the process with a different number fo
