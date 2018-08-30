@@ -66,12 +66,12 @@ Let's create the rules that will help in identifying the associations
     ## Absolute minimum support count: 9 
     ## 
     ## set item appearances ...[0 item(s)] done [0.00s].
-    ## set transactions ...[169 item(s), 9835 transaction(s)] done [0.01s].
+    ## set transactions ...[169 item(s), 9835 transaction(s)] done [0.00s].
     ## sorting and recoding items ... [157 item(s)] done [0.00s].
-    ## creating transaction tree ... done [0.01s].
-    ## checking subsets of size 1 2 3 4 5 6 done [0.02s].
+    ## creating transaction tree ... done [0.00s].
+    ## checking subsets of size 1 2 3 4 5 6 done [0.01s].
     ## writing ... [8955 rule(s)] done [0.00s].
-    ## creating S4 object  ... done [0.01s].
+    ## creating S4 object  ... done [0.00s].
 
     inspect(subset(itemrules, subset=lift > 10 & confidence > 0.5))
 
@@ -138,10 +138,10 @@ Following are some of the rules that are created using Gephi software
     library(knitr)
     library(png)
 
-    myimages<-list.files("E:\\Summer II\\Intro to Predictive Modelling - Part 2\\Exercise 2\\", pattern = ".png", full.names = TRUE)
+    myimages<-list.files("association_files", pattern = ".png", full.names = TRUE)
     include_graphics(myimages)
 
-<img src="E:\Summer II\Intro to Predictive Modelling - Part 2\Exercise 2\dairy.png" width="50%" /><img src="E:\Summer II\Intro to Predictive Modelling - Part 2\Exercise 2\liquor.png" width="50%" /><img src="E:\Summer II\Intro to Predictive Modelling - Part 2\Exercise 2\salad.png" width="50%" /><img src="E:\Summer II\Intro to Predictive Modelling - Part 2\Exercise 2\Sandwich.png" width="50%" /><img src="E:\Summer II\Intro to Predictive Modelling - Part 2\Exercise 2\Snacks.png" width="50%" />
+<img src="association_files/dairy.png" width="50%" /><img src="association_files/liquor.png" width="50%" /><img src="association_files/salad.png" width="50%" /><img src="association_files/Sandwich.png" width="50%" /><img src="association_files/Snacks.png" width="50%" />
 
 **Association rules**
 

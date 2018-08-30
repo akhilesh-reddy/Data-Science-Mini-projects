@@ -74,7 +74,7 @@ Following are some of the rules that are created using Gephi software
 library(knitr)
 library(png)
 
-myimages<-list.files("E:\\Summer II\\Intro to Predictive Modelling - Part 2\\Exercise 2\\", pattern = ".png", full.names = TRUE)
+myimages<-list.files("association_files", pattern = ".png", full.names = TRUE)
 include_graphics(myimages)
 ```
 
