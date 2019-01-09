@@ -20,9 +20,9 @@ Apriori algorithm
 ### Approach
 Steps followed to create the association rules
 
-1.Data pre-processing
-2.Running the apriori algorithm
-3.Visualization of the Output
+1.Data pre-processing  
+2.Running the apriori algorithm  
+3.Visualization of the Output  
 
 ## Author attribution
 ### Introduction
