@@ -11,8 +11,8 @@
 Association rule mining is a very interesting and important topic in retail analytics.Being able to find the associations between various products or services is the first step towards providing personalized recommendations.In this problem, i have tried my hand at finding the association rules between the different grocery items in the cart and visualizing the result in a user-friendly way.
 
 ### Technologies
-Rstudio 1.1.453
-Gephi
+Rstudio 1.1.453  
+Gephi  
 
 ### Algorithms
 Apriori algorithm
@@ -59,13 +59,11 @@ Rstudio 1.1.453
 2.Normalize the data and perform clustering  
 3.Profile the clusters after k-means clustering  
 
-## Prediction of vehicle testing time
+## Prediction of vehicle testing time - Pending
 ### Introduction
 
 ### Technologies and algorithms
 
 ### Approach
-
-### Outcome
 
 
