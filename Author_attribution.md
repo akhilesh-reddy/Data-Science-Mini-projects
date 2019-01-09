@@ -396,7 +396,7 @@ Lets see what authors have been attributed with higher accuracy
 We get 47.72 accuracy from XGBoost which is not better than the Random
 forest model
 
-**Attribution model 4: SVM **
+**Attribution model 4: SVM**
 
     library(e1071)
     X_train_svm = subset(X_train, select = -class_labels_train)
