@@ -10,7 +10,7 @@ output:
 Association rule mining is a very interesting and important topic in retail analytics.Being able to find the associations between various products or services is the first step towards providing personalized recommendations.  
 Apriori is one of the famous algorithms that is generally used for creating association rules and is also used for creating association rules for this problem. In this problem, i have tried my hand at finding the association rules between the different grocery items in the cart and visualizing the result in a user-friendly way.  
 
-**Dataset: Groceries**
+**Dataset: Grocery items**
 
 Steps followed to create the association rules  
 
