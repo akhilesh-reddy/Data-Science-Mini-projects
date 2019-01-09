@@ -1,0 +1,98 @@
+---
+title: "Association rules"
+author: "Akhilesh"
+date: "August 18, 2018"
+output: 
+  md_document:
+  variant: markdown_github
+---
+
+Association rule mining is a very interesting and important topic in retail analytics.Being able to find the associations between various products or services is the first step towards providing personalized recommendations.  
+Apriori is one of the famous algorithms that is generally used for creating association rules and is also used for creating association rules for this problem. In this problem, i have tried my hand at finding the association rules between the different grocery items in the cart and visualizing the result in a user-friendly way.  
+
+**Dataset: Grocery items**
+
+Steps followed to create the association rules  
+
+1.Data pre processing  
+2.Running the apriori algorithm  
+3.Visualization of the Output  
+
+Let's create the rules that will help in identifying the associations     
+
+```{r,echo = TRUE,message = FALSE,warning = FALSE}
+library('R.utils')
+library(arules)
+library(arulesViz)
+library(grid)
+## File
+file <- "groceries.txt"
+
+temp = read.delim2(file, header = FALSE, sep = "\t", dec = ",")
+n = dim(temp)[1]
+
+temp$lists = strsplit(as.character(temp$V1),",")
+temp <- tibble::rowid_to_column(temp, "ID")
+
+df = data.frame(ID=integer(),
+                items=character())
+
+for (i in 1:n) {
+k = data.frame(ID=i, y=temp[i,3])
+names(k) = c('ID','items')
+df = rbind(df,k)
+}
+
+# Turn ID into a factor
+df$user = factor(df$ID)
+items = split(x=df$items, f=df$ID)
+
+## Remove duplicates ("de-dupe")
+items = lapply(items, unique)
+
+## Cast this variable as a special arules "transactions" class.
+itemtrans = as(items,"transactions")
+
+# Now run the 'apriori' algorithm
+# Look at rules with support > .005 & confidence >.1 & length (# artists) <= 5
+itemrules = apriori(itemtrans, 
+                     parameter=list(support=.001, confidence=.4, maxlen=10))
+
+inspect(subset(itemrules, subset=lift > 10 & confidence > 0.5))
+
+sub1 = subset(itemrules, subset=confidence > 0.4 & support > 0.001)
+
+plot(head(sub1, 10, by='lift'), method='graph')
+
+```
+Nodes with arrow pointing outwards denotes the items on LHS and nodes with arrow pointing inwards denotes the items on RHS  
+
+**Gephi is a software that is very useful in creating graphs that are interpretable when it comes to association rules** [Gephi link](https://gephi.org/)
+
+Following are some of the rules that are created using Gephi software  
+
+```{r,fig.width=10, fig.height=20, echo = TRUE,message = FALSE, out.width="50%"}
+
+library(knitr)
+library(png)
+
+myimages<-list.files("association_files", pattern = ".png", full.names = TRUE)
+include_graphics(myimages)
+```
+
+
+**Association rules**  
+
+Following are the rules that came out to be siginificant based on the support and lift that we considered:  
+
+1.There is a high probability for people to red/blush wine if they buy bottled beer and liquor  
+2.Buying soda and popcorn has a high association with salty snack  
+3.Processed cheese and white bread has a high association with buying ham based on the lift   
+4.Some rules are obvious like buying flour and baking powder has a high association with sugar  
+5.Dairy products are associated with each other    
+6.Ham, processed cheese and butter are highly associated  
+
+By using Gephi,we can create a dynamic interactive viusalization that can incorporate a huge number of rules and would help in deriving insights for a particular category or department.  
+
+Hope you enjoyed going through the analysis!
+
