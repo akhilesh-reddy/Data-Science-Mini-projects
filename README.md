@@ -2,34 +2,57 @@
 
 ## Projects
 ## [Association Rules](#association-rules)
+## [Author attribution](#author-attribution)
+## [Market segmentation](#market-segmentation)
+## [Prediction of vehicle testing time](#prediction-of-vehicle-testing-time)
+
 ### 
 * [Introduction](#introduction)
 * [Technologies](#technologies)
 * [Algorithms](#algorithms)
 * [Approach](#approach)
 
-## Association-rules
+## Association rules
 ### Introduction
-This repository is a collation of my mini projects and assignments from the course.
-	
+Association rule mining is a very interesting and important topic in retail analytics.Being able to find the associations between various products or services is the first step towards providing personalized recommendations.In this problem, i have tried my hand at finding the association rules between the different grocery items in the cart and visualizing the result in a user-friendly way.
+
 ### Technologies
-Project is created with:
-* Python 3.6.5   
-**Datasource**
-* salary description dataset from Kaggle
+Rstudio 1.1.453
+Gephi
 
 ### Algorithms
-* Naive Bayes Bernoulli
-* Naive Bayes Multinomial
-* Random Forest
-* XGboost
+Apriori algorithm
 
-### Approach:
-1. Data pre-processing
-  * Removal of punctuations and noise from job descriptions
-  * Removal of stop words
-  * Lemmatization
-2. Classification using just categorical variables other than job description
-3. Classification using Job description using different algorithms
-4. Conclusion
+### Approach
+Steps followed to create the association rules
+
+1.Data pre processing
+2.Running the apriori algorithm
+3.Visualization of the Output
+
+## Author attribution
+### Introduction
+
+### Technologies and algorithms
+
+### Approach
+
+## Market segmentation
+### Introduction
+
+### Technologies and algorithms
+
+### Approach
+
+### Outcome
+
+## Prediction of vehicle testing time
+### Introduction
+
+### Technologies and algorithms
+
+### Approach
+
+### Outcome
+
 
