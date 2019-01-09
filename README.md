@@ -1,13 +1,14 @@
 ## Data science and Machine learning mini projects
 
-## [Association Rules](#association rules)
+## Projects
+## [Association Rules](#association-rules)
 ### 
 * [Introduction](#introduction)
 * [Technologies](#technologies)
 * [Algorithms](#algorithms)
 * [Approach](#approach)
 
-## Association rules
+## Association-rules
 ### Introduction
 This repository is a collation of my mini projects and assignments from the course.
 	
