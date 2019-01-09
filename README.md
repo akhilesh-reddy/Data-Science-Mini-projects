@@ -1,4 +1,5 @@
 # Data science and Machine learning mini projects
+This repository contains all my personal projects and mini projects/assignments that are part of curicullum at UT Austin.  
 
 ## [Association Rules](#association-rules)
 ## [Author attribution](#author-attribution)
