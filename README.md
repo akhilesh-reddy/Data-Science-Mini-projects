@@ -5,6 +5,7 @@ This repository contains all my personal projects and mini projects/assignments 
 ## [Author attribution](#author-attribution)
 ## [Market segmentation](#market-segmentation)
 ## [Prediction of vehicle testing time](#prediction-of-vehicle-testing-time)
+## [Web scraping and analysis of car reviews](#prediction-of-vehicle-testing-time)
 
 
 ## Association rules
@@ -66,5 +67,7 @@ Rstudio 1.1.453
 ### Technologies and algorithms
 
 ### Approach
+
+## Web scraping and analysis of car reviews - Pending
 
 
