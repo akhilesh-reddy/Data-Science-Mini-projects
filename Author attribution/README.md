@@ -13,8 +13,6 @@ Codes:
 [Analysis md document](https://github.com/akhilesh-reddy/Data-Science-Mini-projects/blob/master/Author%20attribution/Author_attribution.md)  
 [Analysis rmd document](https://github.com/akhilesh-reddy/Data-Science-Mini-projects/blob/master/Author%20attribution/Author_attribution.Rmd)
 
-Dataset: Grocery items  
-
 ### Technologies  
 Rstudio 1.1.453  
 
