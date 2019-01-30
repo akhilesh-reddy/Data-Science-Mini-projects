@@ -5,38 +5,36 @@
 * [Technologies](#technologies)
 * [Algorithms](#algorithms)
 * [Approach](#approach)
+* [Insights](#insights)
 
 ### Introduction
-Author attribution is one of the famous NLP technique to identify the author of an unidentified article or to determine the genuine author of a publication when there are multiple claims. In this mini project, I have tried to attribute articles to the respective authors and used multiple classification techniques to come up with the most suitable model for the analysis.
+Market Segmentation has always been the first step in any product launch, campaign or personalized recommendation. This was data collected in the course of a market-research study using followers of the Twitter account of a large consumer brand that shall remain nameless---let's call it "NutrientH20" just to have a label. The goal here was for NutrientH20 to understand its social-media audience a little bit better, so that it could hone its messaging a little more sharply.  
 
 Codes:  
-[Analysis md document](https://github.com/akhilesh-reddy/Data-Science-Mini-projects/blob/master/Association%20rules/Association%20rules.md)  
-[Analysis rmd document](https://github.com/akhilesh-reddy/Data-Science-Mini-projects/blob/master/Association%20rules/Association%20rules.rmd)
+[Analysis md document](https://github.com/akhilesh-reddy/Data-Science-Mini-projects/blob/master/Market%20segmentation/Market_segmentation.md)   
+[Analysis rmd document](https://github.com/akhilesh-reddy/Data-Science-Mini-projects/blob/master/Market%20segmentation/Market%20segmentation.Rmd)
 
-Dataset: Grocery items  
 
 ### Technologies  
-Project is created with:  
-* R studio  
-* Gephi network visualization tool
- 
-### Algorithms
-* Apriori algorithm
+Rstudio 1.1.453  
 
-### Approach:  
+### Algorithms  
+* k-means clustering  
 
-Steps followed to create the association rules  
+### Approach  
+1.Explore the data for correlated audience interests  
+2.Normalize the data and perform clustering  
+3.Profile the clusters after k-means clustering  
 
-1.Data pre processing  
-2.Running the apriori algorithm  
-3.Visualization of the Output  
+### Insights  
+Following is the summary of the segments that we obtained through clustering:
 
-### Insights:  
-Following are the rules that came out to be siginificant based on the support and lift that we considered:  
+Highly educated adults - (Cluster 1) : These people showed an interest in travelling, politics, news and dating through their tweets.
 
-1.There is a high probability for people to red/blush wine if they buy bottled beer and liquor  
-2.Buying soda and popcorn has a high association with salty snack  
-3.Processed cheese and white bread has a high association with buying ham based on the lift  
-4.Some rules are obvious like buying flour and baking powder has a high association with sugar  
-5.Dairy products are associated with each other  
-6.Ham, processed cheese and butter are highly associated  
+In door entertainment enthusiasts - (Cluster 2): These people showed their interest in inddor entertainment like tv, art, film,computer games and online gaming
+
+Family people - (Cluster 3): People in this cluster showed an interest in family,parenting, home-garden, school etc through their tweets
+
+Fitness enthusiasts - (Cluster 4): This is an interesting segement for the nutrition company as these are the people who are interested in staying fit through outdoor activites,health-nutrition and personal-fitness exercises
+
+Social media people - (Cluster 5): These are the people who showed most interest in photo-sharing and are interested in cooking, beauty ,current-events and fashion
