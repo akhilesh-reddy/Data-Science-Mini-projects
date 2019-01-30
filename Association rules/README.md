@@ -10,8 +10,8 @@
 Association rule mining is a very interesting and important topic in retail analytics. In this mini project, i implemented Apriori algorithm in R to discover associations between various products and visualized the results through compelling graph visualizations using Gephi visualization
 
 
-![Analysis md document](https://github.com/akhilesh-reddy/Data-Science-Mini-projects/blob/master/Association%20rules/Association%20rules.md)
-![Analysis rmd document](https://github.com/akhilesh-reddy/Data-Science-Mini-projects/blob/master/Association%20rules/Association%20rules.rmd)
+[Analysis md document](https://github.com/akhilesh-reddy/Data-Science-Mini-projects/blob/master/Association%20rules/Association%20rules.md)
+[Analysis rmd document](https://github.com/akhilesh-reddy/Data-Science-Mini-projects/blob/master/Association%20rules/Association%20rules.rmd)
 
 Dataset: Grocery items  
 
