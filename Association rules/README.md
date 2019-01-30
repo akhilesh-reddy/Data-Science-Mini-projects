@@ -5,6 +5,7 @@
 * [Technologies](#technologies)
 * [Algorithms](#algorithms)
 * [Approach](#approach)
+* [Insights](#insights)
 
 ### Introduction
 Association rule mining is a very interesting and important topic in retail analytics. In this mini project, i implemented Apriori algorithm in R to discover associations between various products and visualized the results through compelling graph visualizations using Gephi visualization
