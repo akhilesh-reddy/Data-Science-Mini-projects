@@ -14,7 +14,7 @@ Market Segmentation has always been the first step in any product launch, campai
 ## Prediction of vehicle testing time  
 Predicting the test time for Mercedes benz cars after manufacturing was the main objective of this project. Using XGBoost, we achieved an R squared value of ~55% for the prediction model.  
 
-## Web scraping and analysis of car reviews  
+## Car brand association analysis using web scraped data    
 Understanding how customers are associating a brand with their own sentiments is crucial information to growth in industries. In this mini project, we have found associations between luxury cars discussed in Edmund’s forum and generated insights regarding what attributes are customers talking about when it comes to these brands  
 
 
