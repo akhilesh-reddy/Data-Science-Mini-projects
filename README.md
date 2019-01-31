@@ -11,8 +11,10 @@ Author attribution is one of the interesting applications of text analytics. In 
 ## Market segmentation  
 Market Segmentation has always been the first step in any product launch, campaign or personalized recommendation. This was data collected in the course of a market-research study using followers of the Twitter account of a large consumer brand that shall remain nameless---let's call it "NutrientH20" just to have a label. The goal here was for NutrientH20 to understand its social-media audience a little bit better, so that it could hone its messaging a little more sharply.  
 
-## Prediction of vehicle testing time - Pending
+## Prediction of vehicle testing time  
+Predicting the test time for Mercedes benz cars after manufacturing was the main objective of this project. Using XGBoost, we achieved an R squared value of ~55% for the prediction model.  
 
-## Web scraping and analysis of car reviews - Pending
+## Web scraping and analysis of car reviews  
+Understanding how customers are associating a brand with their own sentiments is crucial information to growth in industries. In this mini project, we have found associations between luxury cars discussed in Edmund’s forum and generated insights regarding what attributes are customers talking about when it comes to these brands  
 
 
