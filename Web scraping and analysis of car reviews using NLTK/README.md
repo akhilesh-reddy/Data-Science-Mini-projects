@@ -1,4 +1,4 @@
-## Author attribution  
+## CAR BRAND ASSOCIATION ANALYSIS USING WEB SCRAPED DATA
 
 ### Table of contents
 * [Introduction](#introduction)
@@ -7,36 +7,35 @@
 * [Approach](#approach)
 
 ### Introduction
-Author attribution is one of the famous NLP technique to identify the author of an unidentified article or to determine the genuine author of a publication when there are multiple claims. In this mini project, I have tried to attribute articles to the respective authors and used multiple classification techniques to come up with the most suitable model for the analysis.
+Understanding how customers are associating a brand with their own sentiments is crucial information to growth in industries. In this mini project, we have found associations between luxury cars discussed in Edmund’s forum and generated insights regarding what attributes are customers talking about when it comes to these brands  
 
 Codes:  
-[Analysis md document](https://github.com/akhilesh-reddy/Data-Science-Mini-projects/blob/master/Association%20rules/Association%20rules.md)  
-[Analysis rmd document](https://github.com/akhilesh-reddy/Data-Science-Mini-projects/blob/master/Association%20rules/Association%20rules.rmd)
+[Car brand association analysis using web scraped data.ipynb](https://github.com/akhilesh-reddy/Data-Science-Mini-projects/blob/master/Web%20scraping%20and%20analysis%20of%20car%20reviews%20using%20NLTK/Car%20brand%20association%20analysis%20using%20web%20scraped%20data.ipynb)  has the code for the analysis  
 
-Dataset: Grocery items  
+Dataset : Data scraped from Edmunds forum using Selenium  
 
 ### Technologies  
 Project is created with:  
-* R studio  
-* Gephi network visualization tool
+* Python 3.6.5  
+* Selenium  
+* NLTK  
  
 ### Algorithms
-* Apriori algorithm
+* Lift analysis using similarity measures  
+* Multidimensional scaling plot  
 
 ### Approach:  
 
-Steps followed to create the association rules  
+Approach:  
 
-1.Data pre processing  
-2.Running the apriori algorithm  
-3.Visualization of the Output  
+1. Obtaining the data through web scraping  
+2. Data pre-processing  
+3. Visualizing brand association on an Multi dimensional scaling plot  
+4. Primary attributes associated with the brand  
+5. Finding the aspirational brand that customers want to buy  
 
 ### Insights:  
-Following are the rules that came out to be siginificant based on the support and lift that we considered:  
-
-1.There is a high probability for people to red/blush wine if they buy bottled beer and liquor  
-2.Buying soda and popcorn has a high association with salty snack  
-3.Processed cheese and white bread has a high association with buying ham based on the lift  
-4.Some rules are obvious like buying flour and baking powder has a high association with sugar  
-5.Dairy products are associated with each other  
-6.Ham, processed cheese and butter are highly associated  
+* BMW is far from being the "ultimate driving machine" on Edmunds. BMW and the different car attributes have comparitively low lift values to the other top brands. This implies that when people are talking about different desirable car features, BMW does not come to mind  
+* Honda's advertising manager is working with a product with several marketable strengths, such as efficiency, safety, and comfort. If the manager could do more to get people to associate performance with Honda, then Honda would have the strongest reputation that it possibly could among Edmunds forum users     
+* Mercedes needs to market more of its features other than comfort, as it is the only feature Mercedes is the prime example for (in the top 5 brands)
+* Audi and Acura both have styling as a part of their brand reputations.Advertising managers for these companies need not worry about the other since our MDS plot shows that Audi and Acura are dissimilar enough to imply that their markets have only small intersections * * Lastly, BMW needs to do a better job at marketing its product overall  
