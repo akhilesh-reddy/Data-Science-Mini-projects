@@ -37,10 +37,11 @@ Steps followed to create the association rules
 
 ### Summary:  
 The final accuracies we could manage with the four models were -  
-$R^{2}=  0.53440$ with LASSO model
-$R^{2}= $ 0.53309 with RIDGE model
-$R^{2}= $ 0.50493 with MLP model
-$R^{2}= $ 0.55107 with XGBoost model  
+Rsquared values for different models
+LASSO model - 0.53440  
+RIDGE model - 0.53309  
+MLP model - 0.50493  
+XGBoost model - 0.55107   
 * Capped outliers to median $\pm$ 1.5 * IQR values. This helped improve the accuracy of my models from 0.51 to 0.53.  
 * We also removed variables that showed high correlations with other variables in the data using a correlation threshold of 0.6. Although this helped increase accuracy for LASSO model, it had the opposite effect on RIDGE and MLP models.  
 * Considering that all categorical variables were changed to numbers before the dataset was provided for predictions, we tried to one-hot encode those variables. This however, led to no improvement in model accuracy and hence it was discarded.  
