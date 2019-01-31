@@ -27,8 +27,6 @@ Project is created with:
 
 ### Approach:  
 
-Approach:  
-
 1. Obtaining the data through web scraping  
 2. Data pre-processing  
 3. Visualizing brand association on an Multi dimensional scaling plot  
