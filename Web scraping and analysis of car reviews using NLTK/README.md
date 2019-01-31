@@ -5,6 +5,7 @@
 * [Technologies](#technologies)
 * [Algorithms](#algorithms)
 * [Approach](#approach)
+* [Insights](#insights)
 
 ### Introduction
 Understanding how customers are associating a brand with their own sentiments is crucial information to growth in industries. In this mini project, we have found associations between luxury cars discussed in Edmund’s forum and generated insights regarding what attributes are customers talking about when it comes to these brands  
@@ -18,7 +19,7 @@ Dataset : Data scraped from Edmunds forum using Selenium
 Project is created with:  
 * Python 3.6.5  
 * Selenium  
-* NLTK  
+* Similarity measures
  
 ### Algorithms
 * Lift analysis using similarity measures  
