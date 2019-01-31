@@ -37,7 +37,7 @@ Steps followed to create the association rules
 
 ### Summary:  
 The final accuracies we could manage with the four models were -  
-Rsquared values for different models
+Rsquared values for different models  
 LASSO model - 0.53440  
 RIDGE model - 0.53309  
 MLP model - 0.50493  
