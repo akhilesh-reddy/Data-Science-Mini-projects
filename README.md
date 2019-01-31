@@ -1,4 +1,4 @@
-# Data science and Machine learning mini projects
+# Data science mini projects
 This repository contains all my personal projects and mini projects/assignments that are part of curicullum at UT Austin.
 As there are multiple projects in this repository, i have created readme documents for each project separately. Here you can find the introduction to each of those projects. For more detail, please look into the respective project folder
 
