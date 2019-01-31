@@ -36,8 +36,8 @@ Steps followed to create the association rules
 3.Conclusion   
 
 ### Summary:  
-The final accuracies we could manage with the four models were -
-$R^{2}= $ 0.53440 with LASSO model
+The final accuracies we could manage with the four models were -  
+$R^{2}=  0.53440$ with LASSO model
 $R^{2}= $ 0.53309 with RIDGE model
 $R^{2}= $ 0.50493 with MLP model
 $R^{2}= $ 0.55107 with XGBoost model  
