@@ -1,4 +1,4 @@
-## Assoication rule mining on retail products
+## Association rule mining on retail products
 
 ### Table of contents
 * [Introduction](#introduction)
